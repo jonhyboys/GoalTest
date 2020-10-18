@@ -5,7 +5,7 @@ La solución está compuesta de 3 proyectos:
 - FE
 - Tests
 
-# API
+## API
 Este proyecto contiene el código BE de la aplicación. Esta creado con .Net Core 3.1. Intenté seguir un poco los principios SOLID y lo organicé en las siguientes carpetas:
 - Interfaces
 - Entities
@@ -17,14 +17,14 @@ Utilicé un objeto propio para enviar las respuestas, con el fin de que las apli
 
 Algunos métodos no se lograron completar. Los de notificaciones.
 
-# FE
+## FE
 Este proyecto es una aplicación Front-End que utiliza los métodos de la API, para presentar información al usuario. Tiene unos botones y controles bastantes intuitivos.
 
-# Test
+## Test
 Este proyecto contiene unas pocas pruebas unitarias sobre el proyecto. Principalmente se verificó el tipo de datos devueltos y si las operaciones de agregado funcionaban.
 
-# Probar
+## Probar
 Hay que ejecutar el proyecto API(quitar la opción de abrir navegador si se desea) y FE. En la página de FE que se abre por defecto, se muestra la lista de productos y los controles para añadir uno nuevo. También se dejó sin corregir un problema de enrutamiento del método para eliminar producto, por lo tanto al querer eliminar uno, aparecerá un mensaje de error en la pantalla.
 
-# Otras notas
+## Otras notas
 No se agregó seguridad ni un método de autenticación. Únicamente se configuró CORS para poder alcanzar los métodos desde el código de FE.

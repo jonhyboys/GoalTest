@@ -1,0 +1,104 @@
+﻿html,
+body {
+    background: #FAFAFA;
+    color: #333;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background: #E1E1E1;
+    border-bottom: 1px solid #CCC;
+    color: #F45004;
+    margin: 0;
+    padding: 20px 30px;
+}
+
+#page-container {
+    padding: 30px;
+}
+
+.btn {
+    background: #F45004;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+#btn-saveProduct {
+    margin-right: 10px;
+}
+
+#form-container {
+    margin: 15px 0;
+}
+
+.form-group {
+    padding: 5px 0;
+}
+
+    .form-group label {
+        display: inline-block;
+        width: 60px;
+    }
+
+#error-container {
+    background: #DADADA;
+    margin: 15px 0;
+    padding: 10px 30px;
+    position: relative;
+    text-align: center;
+}
+
+#error-close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#blankstate {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#tbl-products {
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 5px 10px;
+}
+
+th {
+    text-align: center;
+}
+
+    th:nth-child(odd) {
+        background: #E1E1E1;
+    }
+
+td {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+    td span {
+        color: #F45004;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+footer {
+    border-top: 1px solid #CCC;
+    padding: 30px;
+}
+
+.hide {
+    display: none;
+}

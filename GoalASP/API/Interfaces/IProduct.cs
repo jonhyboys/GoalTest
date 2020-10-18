@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace API.Interfaces
+﻿namespace API.Interfaces
 {
     public interface IProduct
     {
